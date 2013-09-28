@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface APFriendInfo : NSObject
-
+@property(strong,nonatomic) NSString *userID;
+@property(strong,nonatomic) NSString *fullName;
 @end

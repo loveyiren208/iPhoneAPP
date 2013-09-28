@@ -9,5 +9,6 @@
 #import "APFriendInfo.h"
 
 @implementation APFriendInfo
-
+@synthesize userID;
+@synthesize fullName;
 @end

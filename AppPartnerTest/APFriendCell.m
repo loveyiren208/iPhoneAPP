@@ -9,7 +9,10 @@
 #import "APFriendCell.h"
 
 @implementation APFriendCell
-
+@synthesize nameLabel;
+@synthesize picture;
+@synthesize photo;
+@synthesize cellSpinner;
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];

@@ -5,9 +5,8 @@
 //  Created by Xiaonan Wang on 7/2/13.
 //  Copyright (c) 2013 Xiaonan Wang. All rights reserved.
 //
+#import <UIKit/UIKit.h>
 
-#import "APBasicViewController.h"
-
-@interface APDanceViewController : APBasicViewController
+@interface APDanceViewController : UIViewController
 
 @end
